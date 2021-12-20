@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/muvies/static/css/main.3a640e26.chunk.css",
-    "main.js": "/muvies/static/js/main.add71899.chunk.js",
-    "main.js.map": "/muvies/static/js/main.add71899.chunk.js.map",
+    "main.js": "/muvies/static/js/main.365dbd42.chunk.js",
+    "main.js.map": "/muvies/static/js/main.365dbd42.chunk.js.map",
     "runtime-main.js": "/muvies/static/js/runtime-main.631211aa.js",
     "runtime-main.js.map": "/muvies/static/js/runtime-main.631211aa.js.map",
     "static/js/2.eb2ca463.chunk.js": "/muvies/static/js/2.eb2ca463.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.631211aa.js",
     "static/js/2.eb2ca463.chunk.js",
     "static/css/main.3a640e26.chunk.css",
-    "static/js/main.add71899.chunk.js"
+    "static/js/main.365dbd42.chunk.js"
   ]
 }
