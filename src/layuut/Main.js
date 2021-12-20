@@ -14,6 +14,10 @@ const API_KEY = process.env.REACT_APP_API_KEY
       fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&s=avatar`)
       .then(response => response.json())
       .then(data => this.setState({movie: data.Search, loading: false}))
+      .catch((err) => {
+        console.log(err)
+        this.setState({ loading: false})
+      })
   }
 
   searchMovies =(str, type = 'all') => {
@@ -22,6 +26,10 @@ const API_KEY = process.env.REACT_APP_API_KEY
     ? `&type=${type} ` : ''}`)
     .then(response => response.json())
     .then(data => this.setState({movie: data.Search, loading: false}))
+    .catch((err) => {
+      console.log(err)
+      this.setState({ loading: false})
+    })
   }
 
     render(){
